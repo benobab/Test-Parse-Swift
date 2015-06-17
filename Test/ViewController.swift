@@ -69,7 +69,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var object = PFObject(className: "Countries")
         object.setObject(self.inputData.text, forKey: "message")
         object.save()
-    
+        self.inputData.resignFirstResponder() // pour le clavier
         self.labelData.text = "Text envoyé dans Parse"
         //let predicate = NSPredicate(format: "playerName = 'Dan Stemkosk'")
         //var query = PFQuery(className: "Countries", predicate: predicate)
