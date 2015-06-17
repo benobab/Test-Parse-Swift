@@ -32,6 +32,7 @@
 		EAC5A63B1B31750A0004C0A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5A63A1B31750A0004C0A1 /* SystemConfiguration.framework */; };
 		EAC5A63D1B3175100004C0A1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5A63C1B3175100004C0A1 /* libsqlite3.dylib */; };
 		EAC5A6401B3175200004C0A1 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A63F1B3175200004C0A1 /* test.m */; };
+		EAC5A6441B31C8D70004C0A1 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A6431B31C8D70004C0A1 /* TextCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		EAC5A63C1B3175100004C0A1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		EAC5A63E1B31751F0004C0A1 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
 		EAC5A63F1B3175200004C0A1 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		EAC5A6431B31C8D70004C0A1 /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextCell.swift; path = ../TextCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		EAC5A5F51B3174490004C0A1 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				EAC5A6431B31C8D70004C0A1 /* TextCell.swift */,
 				EAC5A61B1B31745E0004C0A1 /* Bolts.framework */,
 				EAC5A61C1B31745E0004C0A1 /* Parse.framework */,
 				EAC5A61D1B31745E0004C0A1 /* ParseCrashReporting.framework */,
@@ -290,6 +293,7 @@
 			files = (
 				EAC5A5FE1B3174490004C0A1 /* ViewController.swift in Sources */,
 				EAC5A6401B3175200004C0A1 /* test.m in Sources */,
+				EAC5A6441B31C8D70004C0A1 /* TextCell.swift in Sources */,
 				EAC5A5F91B3174490004C0A1 /* AppDelegate.swift in Sources */,
 				EAC5A5FC1B3174490004C0A1 /* Test.xcdatamodeld in Sources */,
 			);
@@ -502,6 +506,7 @@
 				EAC5A6171B3174490004C0A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAC5A6181B3174490004C0A1 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				EAC5A61A1B3174490004C0A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

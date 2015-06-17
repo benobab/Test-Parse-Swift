@@ -18,11 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         Parse.setApplicationId("G0m4PNMF8sKMTG22j5cXsVpDkVURcxPlrG6zdOuv", clientKey: "5nvjCVa8HxOCjAewIKFko3MhCEUKfMeFXWb07xe8")
-
-        var object = PFObject(className: "Countries")
-        object.setObject("HeyBro", forKey: "message")
-        object.save()
-        
         return true
     }
 
